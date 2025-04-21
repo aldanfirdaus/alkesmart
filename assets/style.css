@@ -1,0 +1,43 @@
+body {
+	font-family: 'Segoe UI', sans-serif;
+	background: #f8f9fa;
+}
+.navbar-custom {
+background-color: #9c1b2e;
+}
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+color: white;
+font-weight: bold;
+}
+.register-card {
+max-width: 500px;
+margin: 40px auto;
+padding: 30px;
+border-radius: 10px;
+background: white;
+box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.form-control:focus {
+border-color: #9c1b2e;
+box-shadow: 0 0 0 0.2rem rgba(156, 27, 46, 0.25);
+}
+.btn-custom {
+background-color: #9c1b2e;
+color: white;
+}
+.btn-custom:hover {
+background-color: #7d1624;
+}
+.navbar-toggler {
+border-color: white;
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:hover {
+background-color: #7d1624; /* warna saat hover */
+border-color: #fff;
+}

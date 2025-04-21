@@ -1,0 +1,91 @@
+body {
+	font-family: 'Segoe UI', sans-serif;
+	background: #f8f9fa;
+	padding-top: 50px;
+}
+.navbar-custom {
+background-color: #9c1b2e;
+}
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+color: white;
+font-weight: bold;
+}
+.register-card {
+max-width: 500px;
+margin: 40px auto;
+padding: 30px;
+border-radius: 10px;
+background: white;
+box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.form-control:focus {
+border-color: #9c1b2e;
+box-shadow: 0 0 0 0.2rem rgba(156, 27, 46, 0.25);
+}
+.btn-custom {
+background-color: #9c1b2e;
+color: white;
+}
+.btn-custom:hover {
+background-color: #7d1624;
+}
+.navbar-toggler {
+border-color: white;
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:hover {
+background-color: #7d1624; /* warna saat hover */
+border-color: #fff;
+}
+
+/* Background untuk halaman login */
+body.login-page {
+	background: url('../images/bg_login.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Segoe UI', sans-serif;
+}
+/* Biar form tetap jelas di atas background */
+.login-wrapper {
+backdrop-filter: blur(6px);
+background-color: rgba(255, 255, 255, 0.85);
+border-radius: 15px;
+padding: 30px;
+box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+max-width: 400px;
+margin: 5px auto;
+}
+.custom-slide {
+	width: 80%; /* Atur sesuai kebutuhan, misalnya 60% atau 800px */
+	border-radius: 20px; /* Membulatkan ujung sudut lebih halus */
+	object-fit: cover;
+}
+.kategori-scroll {
+scroll-behavior: smooth;
+padding-bottom: 10px;
+}
+
+.kategori-card {
+min-width: 200px;
+flex: 0 0 auto;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+transition: transform 0.2s;
+}
+
+.kategori-card:hover {
+transform: scale(1.05);
+}
+
+/* Optional scrollbar styling */
+.kategori-scroll::-webkit-scrollbar {
+height: 8px;
+}
+.kategori-scroll::-webkit-scrollbar-thumb {
+background-color: #9c1b2e;
+border-radius: 10px;
+}
